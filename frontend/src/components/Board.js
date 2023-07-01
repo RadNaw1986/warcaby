@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-const axios = require('axios'); //wczesniej było: import axios from 'axios' i wywalało błąd
-
+import axios from 'axios'; //wczesniej było: import axios from 'axios' i wywalało błąd
 
 const BoardSize = 8; // Rozmiar planszy warcabowej (8x8)
 
